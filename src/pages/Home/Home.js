@@ -9,40 +9,51 @@ import { LayDanhSachHeThongRapAction } from "../../redux/actions/QuanLyRapAction
 import { Fragment } from "react";
 import HomeCarousel from "../../templates/HomeTamplate/HomeCarousel/HomeCarousel.js";
 
+// abc222 123456
+
 export default function Home(props) {
-  const { arrFilm } = useSelector((state) => state.QuanLyPhimReducer);
-  console.log(arrFilm);
-  // const renderPhim = () => {
-  //   return arrFilm.map((item, index) => {
-  //     return <Film key={index} />;
-  //   });
-  // }
-  const { heThongRapChieu } = useSelector((state) => state.QuanLyRapReducer);
-  const dispatch = useDispatch();
-  useEffect(() => {
-    const action = layDanhSachPhimAction();
-    dispatch(action);
-    dispatch(LayDanhSachHeThongRapAction());
-  }, [dispatch]);
-  return (
-    <Fragment>
-      <HomeCarousel />
-      <div style={{ marginLeft: "5%", width: "90%" }}>
-        <section className="text-gray-600 body-font justify-center flex">
-          <div className="container px-5 py-24 mx-auto">
-            {/* <div
-            className="flex flex-wrap -m-4"
-            style={{ justifyContent: "center" }}
-          >
-            {renderPhim()}
-          </div> */}
-            <MultipleRowSlick arrFilm={arrFilm} />
-          </div>
-        </section>
-        <div className="mx-36">
-          <HomeMenu heThongRapChieu={heThongRapChieu} />
-        </div>
-      </div>
-    </Fragment>
-  );
+    const { arrFilm } = useSelector((state) => state.QuanLyPhimReducer);
+    console.log(arrFilm);
+    // const renderPhim = () => {
+    //   return arrFilm.map((item, index) => {
+    //     return <Film key={index} />;
+    //   });
+    // }
+    const { heThongRapChieu } = useSelector((state) => state.QuanLyRapReducer);
+    const dispatch = useDispatch();
+    useEffect(() => {
+        const action = layDanhSachPhimAction();
+        dispatch(action);
+        dispatch(LayDanhSachHeThongRapAction());
+    }, [dispatch]);
+    return ( <
+        Fragment >
+        <
+        HomeCarousel / >
+        <
+        div style = {
+            { marginLeft: "5%", width: "90%" } } >
+        <
+        section className = "text-gray-600 body-font justify-center flex" >
+        <
+        div className = "container px-5 py-24 mx-auto" > {
+            /* <div
+                        className="flex flex-wrap -m-4"
+                        style={{ justifyContent: "center" }}
+                      >
+                        {renderPhim()}
+                      </div> */
+        } <
+        MultipleRowSlick arrFilm = { arrFilm }
+        /> <
+        /div> <
+        /section> <
+        div className = "mx-36" >
+        <
+        HomeMenu heThongRapChieu = { heThongRapChieu }
+        /> <
+        /div> <
+        /div> <
+        /Fragment>
+    );
 }
