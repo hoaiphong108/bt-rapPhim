@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/bt-rapPhim/static/css/main.e60b6a37.chunk.css",
+    "main.js": "/bt-rapPhim/static/js/main.1e1aa34e.chunk.js",
+    "main.js.map": "/bt-rapPhim/static/js/main.1e1aa34e.chunk.js.map",
+    "runtime-main.js": "/bt-rapPhim/static/js/runtime-main.d089c501.js",
+    "runtime-main.js.map": "/bt-rapPhim/static/js/runtime-main.d089c501.js.map",
+    "static/css/2.0c5aefc2.chunk.css": "/bt-rapPhim/static/css/2.0c5aefc2.chunk.css",
+    "static/js/2.8e675ac0.chunk.js": "/bt-rapPhim/static/js/2.8e675ac0.chunk.js",
+    "static/js/2.8e675ac0.chunk.js.map": "/bt-rapPhim/static/js/2.8e675ac0.chunk.js.map",
+    "static/js/3.07d1209a.chunk.js": "/bt-rapPhim/static/js/3.07d1209a.chunk.js",
+    "static/js/3.07d1209a.chunk.js.map": "/bt-rapPhim/static/js/3.07d1209a.chunk.js.map",
+    "index.html": "/bt-rapPhim/index.html",
+    "static/css/2.0c5aefc2.chunk.css.map": "/bt-rapPhim/static/css/2.0c5aefc2.chunk.css.map",
+    "static/css/main.e60b6a37.chunk.css.map": "/bt-rapPhim/static/css/main.e60b6a37.chunk.css.map",
+    "static/js/2.8e675ac0.chunk.js.LICENSE.txt": "/bt-rapPhim/static/js/2.8e675ac0.chunk.js.LICENSE.txt",
+    "static/media/getFetch.cjs": "/bt-rapPhim/static/media/getFetch.582d29c4.cjs",
+    "static/media/slick-theme.css": "/bt-rapPhim/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d089c501.js",
+    "static/css/2.0c5aefc2.chunk.css",
+    "static/js/2.8e675ac0.chunk.js",
+    "static/css/main.e60b6a37.chunk.css",
+    "static/js/main.1e1aa34e.chunk.js"
+  ]
+}
